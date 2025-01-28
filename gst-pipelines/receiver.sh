@@ -1,0 +1,1 @@
+gst-launch-1.0 udpsrc port=5000 ! application/x-rtp, payload=96 ! rtpvp8depay ! vp8dec ! videoconvert ! autovideosink
